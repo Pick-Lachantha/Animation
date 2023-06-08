@@ -36,4 +36,24 @@ button:hover{
 span.bg{
     width: 320px;
     height: 320px;
+    background-image: linear-gradient(45deg, #e74c3c 30%, #f1c40f ,#2ecc71, #3498db, #8e44ad 70%);
+    position: absolute;
+    animation: circle 10s infinite;
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
